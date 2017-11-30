@@ -7,7 +7,16 @@
 .fa-angle-down {
     color: $primary-red;
 }
-
+.fa-angle-right {
+    margin-left: 19px;
+}
+.fa-check {
+    color: $teal-blue;
+}
+.fa-phone {
+    // font-size: 20px;
+    color: $primary-red;
+}
 body {
     font-family: Nexa;
 }

@@ -1,11 +1,35 @@
 .section {
-    background-color: purple;
+    
     
 }
 .section--hero {
-    padding: 96px 0;
+    padding: 100px 0;
     background-image: url( '../img/hero-bg@2x.jpg' );
-    background-size: cover;
+    background-size: 1200px 518px;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 0;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}//.section--hero
+
+.section--plans {
+    margin-top: 0;
+    margin-bottom: 100px;
+}//.section--plans
+.section--free-install {
+    background-color: $primary-red;
+    color: white;
+}//.section--free-install
+.section--why__title {
+    font-size: 36px;
+    line-height: 36px;
+    color: $primary-gray;
+    letter-spacing: 1px;
+}
+.section--why__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $secondary-gray;
 }

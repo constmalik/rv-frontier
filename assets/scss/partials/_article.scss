@@ -1,6 +1,92 @@
-.hero-article {
-    
+.hero-article {  
     background-color:rgba(250, 250, 250, 0.9);
     padding: 40px;
     width: 551px;
+    height: 325px;
+    &__title {
+        font-size: 36px;
+        line-height: 36px;
+        color: $primary-gray;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 22px;
+        color: $primary-gray;        
+    }
+    &__span {
+        font-size: 16px;
+        line-height: 24px;
+        color: $secondary-gray;
+        white-space: nowrap;
+    }
+}
+
+.plans-article {
+    padding: 40px 40px 30px 40px;
+    border: 1px solid $border-gray;
+    &__image {
+        padding-bottom: 20px;
+    }
+    .button {
+        margin-bottom: 26px;
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 16px;
+        color: $primary-gray;
+        padding-bottom: 10px;
+    }
+    &__price {
+        color: $primary-gray;
+        .plans-article__price-symbol, .plans-article__price-cents {
+            font-size: 20px;
+            line-height: 22px;
+        }
+        .plans-article__price-amount {
+            font-size: 90px;
+            line-height: 90px;
+        }
+        
+    }
+    &__list {
+        list-style-type: none;
+        li {
+            padding-bottom: 12px;
+        }
+        li a {
+            font-size: 16px;
+            line-height: 24px;
+            color: $secondary-gray;
+        }
+    }
+    // hr {
+    //     margin-bottom: 30px;
+    // }
+    .sub-article-content {
+        border-top: 1px solid $border-gray;
+        padding-top: 30px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 14px;
+        color: $primary-gray;   
+        margin-bottom: 12px; 
+    }
+}//.plans-article 
+.why-article {
+    margin-bottom: 100px;
+    &__image {
+        margin-bottom: 40px;
+    }
+    &__title {
+        font-size: 20px;
+        line-height: 22px;
+        color: $primary-gray;    
+        margin-bottom: 20px;    
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: $secondary-gray;       
+    }
 }
