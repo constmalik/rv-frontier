@@ -4,12 +4,17 @@
     .top-header {
         margin-top: 10px;
         ul.inline-list {
+            li {
+                display: inline-flex;
+            }
             li a {
+                margin-left: 5px;
                 font-size: 14px;
                 line-height: 14px;
                 color: $secondary-gray;               
             }
         }
+
     }
     .bottom-header {
         margin-top: 0;
@@ -28,6 +33,17 @@
     hr {
         margin:0;
     }
+    #search {
+        margin-top: 10px;
+        width: 270px;
+        @media screen and (max-width: 768px){
+            width: 190px;
+        }
+    }
+    #search::placeholder {
+        padding-left: 50px;
+        
+    }
     .subheader {
         // border-top: 1px solid #D2D2D2;
         line-height: 2;
@@ -40,5 +56,8 @@
             font-size: 20px;
             line-height: 20px;
         }
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
     }
 }
