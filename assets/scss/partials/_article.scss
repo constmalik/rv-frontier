@@ -84,6 +84,63 @@
         color: $primary-gray;   
         margin-bottom: 12px; 
     }
+    @media screen and (max-width: 768px) {
+        padding: 40px 5px 30px 0;
+        border: 1px solid $border-gray;
+        &__image {
+            padding-bottom: 20px;
+        }
+        .button {
+            margin-bottom: 26px;
+        }
+        &__title {
+            font-size: 16px;
+            line-height: 16px;
+            color: $primary-gray;
+            padding-bottom: 10px;
+        }
+        &__price {
+            color: $primary-gray;
+            .plans-article__price-symbol, .plans-article__price-cents {
+                font-size: 20px;
+                line-height: 22px;
+            }
+            .plans-article__price-amount {
+                font-size: 90px;
+                line-height: 90px;
+                display: inline-block;
+            }
+            .plans-article__price-per {
+                display: inline-block;
+            }
+            
+        }
+        &__list {
+            margin-left: 0;
+            list-style-type: none;
+            li {
+                padding-bottom: 12px;
+            }
+            li a {
+                font-size: 16px;
+                line-height: 24px;
+                color: $secondary-gray;
+            }
+        }
+        // hr {
+        //     margin-bottom: 30px;
+        // }
+        .sub-article-content {
+            border-top: 1px solid $border-gray;
+            padding-top: 30px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 14px;
+            color: $primary-gray;   
+            margin-bottom: 12px; 
+        }
+    }
 }//.plans-article 
 .why-article {
     margin-bottom: 100px;

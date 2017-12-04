@@ -1,5 +1,29 @@
 .footer {
+    padding: 42px 0;
     background-color: $primary-red;
     color: white;
-    
+    .hurry-statement {
+        text-align: left;
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .call-statement {
+        text-align: right;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 40px 0;
+        background-color: $primary-red;
+        color: white;
+        .hurry-statement {
+            text-align: center;
+            p {
+                margin-bottom: 0;
+            }
+        }
+        .call-statement {
+            text-align: center;
+        }
+    }
 }
