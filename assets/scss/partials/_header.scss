@@ -16,6 +16,9 @@
         }
 
     }
+    .frontier-type {
+        display: block;
+    }
     .bottom-header {
         margin-top: 0;
 
@@ -145,4 +148,93 @@
         }
         // make "call order now statement disappear.
     }
+    @media screen and (max-width: 322px) {
+        border-bottom: 1px solid #D2D2D2;
+        margin-bottom: 0;
+        .top-header {
+            margin-top: 10px;
+            ul.inline-list {
+                li {
+                    display: inline-flex;
+                }
+                li a {
+                    margin-left: 5px;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: $secondary-gray;               
+                }
+            }
+        }
+        .bottom-header {
+            margin-top: 0;
+            margin-bottom: 19px;
+
+            figure {
+                margin: 0;
+            }
+
+        }
+        hr {
+            margin:0;
+        }
+        #search {
+            margin-top: 10px;
+            // width: 270px;
+            border-color: inherit;
+            border: 1px solid #D2D2D2;
+            display: inline;
+            @media screen and (max-width: 768px){
+                width: 190px;
+            }
+        }
+        #search::placeholder {
+            padding: 8px 60px 7px 16px;
+            
+        }
+        .submitbtn {
+            border: 1px solid #D2D2D2;
+            display: inline;
+        }
+        .subheader {
+            // border-top: 1px solid #D2D2D2;
+            // line-height: 2;
+            padding: 0;
+            span {
+                font-size: 16px;
+                line-height: 16px;
+            }
+            .subheader-wrap {
+                img {
+                    margin-right: 5px;
+                }
+                span {
+                    position: absolute;
+                    line-height: 39px;
+                }
+                .wrap {
+                    padding: 0;
+                }
+                .middle-wrap {
+                    padding-left: 20px;
+                }
+            }
+            #bundle-number {
+                font-size: 20px;
+                line-height: 20px;
+            }
+            .medium-hidden {
+                display: none;
+            }
+            .medium-3 {
+                padding: 0;
+            }
+            .bundles-wrap {
+                margin-left: -50px;
+            }
+            .phone-wrap {
+                margin-right: 31px;
+            }
+        }
+        // make "call order now statement disappear.
+} 
 }

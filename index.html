@@ -24,7 +24,7 @@
         <!-- Add your site or application content here -->
         <header class="header">
             <div class="row top-header">
-                <div class="columns large-6 medium-6">
+                <div class="columns large-6 medium-6 hidden-for-small-only">
                     <ul class="inline-list  left">
                         <li>
                             <a href="">Resedential</a>
@@ -37,7 +37,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="columns large-6 medium-6">
+                <div class="columns large-6 medium-6 hidden-for-small-only">
                     <ul class="inline-list  right">
                         <li>
                             <img src="./assets/img/Pin.svg" alt="Red pin icon">
@@ -55,12 +55,24 @@
                 </div>
             </div>
             <div class="row bottom-header">
-                    <div class="large-2 medium-2 columns">
+                    <div class="columns small-3 visible-for-small-only">
+                        <figure>
+                            <img src="./assets/img/mobile-frontier-logo.svg" alt="Frontier Logo">
+                        </figure>
+                    </div>
+                    <div class="columns small-8 phone-wrap visible-for-small-only">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span id="bundle-number">1.888.888.8888</span>
+                    </div>
+                    <div class="columns small-1 visible-for-small-only">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div class="large-2 medium-2 columns hidden-for-small-only">
                         <figure>
                             <img src="./assets/img/frontier-logo.svg" alt="Frontier Logo">
                         </figure>
                     </div>
-                    <div class="large-5 large-offset-1 medium-6 columns nav">
+                    <div class="large-5 large-offset-1 medium-6 columns nav hidden-for-small-only">
                         <ul class="inline-list">
                             <li>
                                 <a href="">Shop <i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -74,7 +86,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="large-3 medium-4 columns">
+                    <div class="large-3 medium-4 small-1 columns hidden-for-small-only">
                         <label for="search"></label>
                         <input type="text" id="search"placeholder="&#xf002; Search Frontier">
                         <input type="submit" class="submitbtn">
@@ -82,24 +94,24 @@
             </div>
             <hr>
             <div class="row subheader">
-                <div class="columns large-6 medium-6 subheader-wrap">
-                    <div class="columns large-4 medium-4 wrap">
+                <div class="columns large-6 medium-6 small-12 subheader-wrap">
+                    <div class="columns large-4 medium-4 small-4 wrap">
                         <img src="./assets/img/Internet.svg" alt="Red computer icon">
-                        <span>Internet Plans</span>
+                        <span>Internet <span class="hidden-for-small-only">Plans</span></span>
                     </div>
-                    <div class="columns large-4 medium-4 wrap">
+                    <div class="columns large-4 medium-4 small-4 wrap middle-wrap">
                         <img src="./assets/img/TV.svg" alt="Red television icon">
-                        <span>TV Plans</span>
+                        <span>TV <span class="hidden-for-small-only">Plans</span></span>
                     </div>
-                    <div class="columns large-4 medium-4 wrap">
+                    <div class="columns large-4 medium-4 small-4 wrap">
                         <img src="./assets/img/Bundles.svg" alt="Red tags bundle icon">
                         <span>Bundles</span>
                     </div>
                 </div><!-- .columns-->
-                <div class="columns large-2 large-offset-1 medium-2 medium-offset-1 medium-hidden">
+                <div class="columns large-2 large-offset-1 medium-2 medium-offset-1 medium-hidden hidden-for-small-only">
                     <span>Call to order now!</span>
                 </div>
-                <div class="columns large-3 medium-6 phone-wrap">
+                <div class="columns large-3 medium-6 phone-wrap hidden-for-small-only">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <span id="bundle-number">1.888.888.8888</span>
                 </div>
@@ -108,6 +120,11 @@
         </header>
 
         <section class="section section--hero">
+            <div class="row visible-for-small-only">
+                <figure class="mobile-hero-image">
+                    <img src="./assets/img/mobile-hero.png" alt="Frontier hero background image">
+                </figure>
+            </div>
             <div class="row">
                 <div class="large-5  large-offset-6 medium-offset-6">
                     <article class="hero-article">

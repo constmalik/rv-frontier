@@ -19,6 +19,20 @@
         margin-top: 0;
         margin-bottom:0;
     }
+    @media screen  and (max-width: 322px) {
+    padding: 0;
+    background-image: none;
+    background-size: 322px 485px;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-bottom:0;
+    }
+    .visible-for-small-only {
+        .mobile-hero-image {
+            margin: 0;
+        }
+    }
 }//.section--hero
 
 .section--plans {

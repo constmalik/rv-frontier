@@ -21,8 +21,20 @@
     }
     @media screen and (max-width: 768px) {
         width: 384px;
-        height: 485px;
+        height: auto;
+        text-align: center;
         // padding: 123px 0px 91px 40px;
+        &__span {
+            white-space: normal;
+        }
+    }
+        @media screen and (max-width: 322px) {
+        width: 322px;
+        // height: 485px;
+        // // padding: 123px 0px 91px 40px;
+        &__title {
+            padding-right: 25px;
+        }
         &__span {
             white-space: normal;
         }
